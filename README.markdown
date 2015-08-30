@@ -44,7 +44,7 @@ Then, clone the repository, cd into the flightSimPanels folder and run
 - Install the command line version of Grunt
 This is a dependency and the best is for you to do that. Please, ensure a fairly recent version of the command line interface is installed (version > 0.1.10). Run the following command:
 
-'npm install -g grunt-cli'
+'sudo npm install -g grunt-cli'
 
 This will globally install "grunt-cli" (the command line version of Grunt); If you want to keep it local to this project, then remove the "-g" but keep in mind that the 'grunt' executable then won't be in your path; you'll find it under ./node-modules/.bin/
 
